@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary_colour: #09b451;
+  --border: #e4ffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}

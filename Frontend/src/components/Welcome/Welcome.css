@@ -1,0 +1,44 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+.left {
+  font-size: 2.5rem;
+  margin-right: 5rem;
+}
+
+.left span {
+  color: var(--primary_colour);
+}
+
+.left button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: var(--primary_colour);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.right {
+  position: relative;
+}
+
+.right img {
+  height: 30rem;
+  width: 25rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.border {
+  height: 20rem;
+  border: 5rem solid var(--border);
+  border-radius: 20% 60%;
+  position: absolute;
+  top: 0;
+  right: 40%;
+  z-index: -1;
+}

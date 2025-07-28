@@ -1,0 +1,65 @@
+
+
+.courses_wrapper {
+  margin: 5rem 0;
+  padding: 0 6rem;
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* In-Built Swiper code */
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 2rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  padding: 0 5rem;
+  padding-bottom: 3rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*own code  */
+.swiper_slide img{
+    height: 20rem;
+    width: 15rem;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  color: var(--primary_colour) !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color:var(--primary_colour) !important;
+}
+
+.overflow{
+  padding: 1rem;
+  color: #333333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-bottom:solid 2px var(--primary_colour) ;
+}
