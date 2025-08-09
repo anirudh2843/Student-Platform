@@ -1,16 +1,14 @@
 import "./Navbar.css";
 import image from "../../assets/image.png";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 const Navbar = () => {
   const navigator = useNavigate();
+  const [isLogin, setIsLogin] = useState(false);
   return (
     <div>
       <nav className="nav_wrapper">
-        <div className="logo_wrapper">
-          <a href="#">
-            <img src={image} alt="" />
-          </a>
-        </div>
+        <div className="logo_wrapper">Code Buddy</div>
         <div className="links_wrapper">
           <a href="">Home</a>
           <a href="">Courses</a>

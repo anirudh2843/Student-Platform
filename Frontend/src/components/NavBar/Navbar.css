@@ -1,28 +1,30 @@
 
 
 .nav_wrapper {
-  margin: 0 2rem;
+  height: 5rem;
+  margin: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* border: solid; */
 }
 
 .logo_wrapper {
-  height: 6rem;
+  height: 3rem;
   width: 10rem;
-}
-
-.logo_wrapper img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 40%;
 }
 
 .links_wrapper a {
   text-decoration: none;
   color: #000;
   margin: 0 1rem;
-  font-size: 1.1rem;
+  font-size: 20px;
 }
 
 .links_wrapper a:hover {

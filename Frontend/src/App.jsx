@@ -1,5 +1,12 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Components
 import Navbar from "./components/Navbar/Navbar";
@@ -23,6 +30,7 @@ const Layout = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/home" element={<Home />} />
       </Routes>
+      <ToastContainer position="top-center" autoClose={3000} />
     </>
   );
 };
